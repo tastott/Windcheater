@@ -4,3 +4,28 @@
 }
 
 <h2>Index</h2>
+
+<input type="number" data-bind="value: SegmentId" />
+<button data-bind="click: GetStravaSegment">Go</button>
+
+<div data-bind="with: Segment">
+    <h3 data-bind="text: Name"></h3>
+    <table class="leaderboard">
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Name</th>
+                <th>Time</th>
+                <th>Weather</th>
+            </tr>
+        </thead>
+        <tbody data-bind="foreach: Leaderboard">
+            <tr>
+                <td data-bind="text: Rank"></td>
+                <td data-bind="text: AthleteName"></td>
+                <td data-bind="timeText: MovingTime"></td>
+                <td data-bind="windWidget: { windSpeed: Weather.WindSpeed, windBearing: Weather.WindBearing, diameter: 20 }"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

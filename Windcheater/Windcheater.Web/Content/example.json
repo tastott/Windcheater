@@ -1,0 +1,220 @@
+﻿{
+   "Id":3752866,
+   "Name":"Foxcombe hill - Just the hill",
+   "StartLocation":{
+      "Latitude":51.705148,
+      "Longitude":-1.300322
+   },
+   "Leaderboard":[
+      {
+         "Weather":{
+            "Source":"Met Office",
+            "SiteName":"Benson",
+            "Latitude":51.62,
+            "Longitude":-1.097,
+            "WindSpeed":13,
+            "WindBearing":3.5342917352885173
+         },
+         "Rank":1,
+         "AthleteName":"Tejvan Pettinger",
+         "StartTime":"\/Date(1342626171000)\/",
+         "MovingTime":115
+      },
+      {
+         "Weather":{
+            "Source":"Met Office",
+            "SiteName":"Benson",
+            "Latitude":51.62,
+            "Longitude":-1.097,
+            "WindSpeed":9,
+            "WindBearing":3.5342917352885173
+         },
+         "Rank":2,
+         "AthleteName":"Philip Mitchell",
+         "StartTime":"\/Date(1383231682000)\/",
+         "MovingTime":126
+      },
+      {
+         "Weather":{
+            "Source":"Met Office",
+            "SiteName":"Benson",
+            "Latitude":51.62,
+            "Longitude":-1.097,
+            "WindSpeed":17,
+            "WindBearing":3.9269908169872414
+         },
+         "Rank":3,
+         "AthleteName":"James Lambton",
+         "StartTime":"\/Date(1399480505000)\/",
+         "MovingTime":128
+      },
+      {
+         "Weather":{
+            "Source":"Met Office",
+            "SiteName":"Benson",
+            "Latitude":51.62,
+            "Longitude":-1.097,
+            "WindSpeed":10,
+            "WindBearing":3.5342917352885173
+         },
+         "Rank":4,
+         "AthleteName":"Alastair Harrison",
+         "StartTime":"\/Date(1379415230000)\/",
+         "MovingTime":131
+      },
+      {
+         "Weather":{
+            "Source":"Met Office",
+            "SiteName":"Benson",
+            "Latitude":51.62,
+            "Longitude":-1.097,
+            "WindSpeed":15,
+            "WindBearing":3.9269908169872414
+         },
+         "Rank":4,
+         "AthleteName":"Nick Owen",
+         "StartTime":"\/Date(1399654534000)\/",
+         "MovingTime":131
+      },
+      {
+         "Weather":{
+            "Source":"Met Office",
+            "SiteName":"Benson",
+            "Latitude":51.62,
+            "Longitude":-1.097,
+            "WindSpeed":10,
+            "WindBearing":3.9269908169872414
+         },
+         "Rank":6,
+         "AthleteName":"Jonny Revis",
+         "StartTime":"\/Date(1351933817000)\/",
+         "MovingTime":132
+      },
+      {
+         "Weather":{
+            "Source":"Met Office",
+            "SiteName":"Benson",
+            "Latitude":51.62,
+            "Longitude":-1.097,
+            "WindSpeed":15,
+            "WindBearing":4.3196898986859651
+         },
+         "Rank":6,
+         "AthleteName":"Stuart Wilson",
+         "StartTime":"\/Date(1339259328000)\/",
+         "MovingTime":132
+      },
+      {
+         "Weather":{
+            "Source":"Met Office",
+            "SiteName":"Benson",
+            "Latitude":51.62,
+            "Longitude":-1.097,
+            "WindSpeed":13,
+            "WindBearing":0
+         },
+         "Rank":6,
+         "AthleteName":"Thomas Quick",
+         "StartTime":"\/Date(1346842290000)\/",
+         "MovingTime":132
+      },
+      {
+         "Weather":{
+            "Source":"Met Office",
+            "SiteName":"Benson",
+            "Latitude":51.62,
+            "Longitude":-1.097,
+            "WindSpeed":26,
+            "WindBearing":3.1415926535897931
+         },
+         "Rank":9,
+         "AthleteName":"Alasdair Higgins",
+         "StartTime":"\/Date(1391866356000)\/",
+         "MovingTime":135
+      },
+      {
+         "Weather":{
+            "Source":"Met Office",
+            "SiteName":"Benson",
+            "Latitude":51.62,
+            "Longitude":-1.097,
+            "WindSpeed":9,
+            "WindBearing":3.1415926535897931
+         },
+         "Rank":9,
+         "AthleteName":"Jakub Kwiecinski",
+         "StartTime":"\/Date(1402167093000)\/",
+         "MovingTime":135
+      },
+      {
+         "Weather":{
+            "Source":"Met Office",
+            "SiteName":"Benson",
+            "Latitude":51.62,
+            "Longitude":-1.097,
+            "WindSpeed":10,
+            "WindBearing":3.9269908169872414
+         },
+         "Rank":16,
+         "AthleteName":"Mark Loftus",
+         "StartTime":"\/Date(1339929130000)\/",
+         "MovingTime":139
+      },
+      {
+         "Weather":{
+            "Source":"Met Office",
+            "SiteName":"Benson",
+            "Latitude":51.62,
+            "Longitude":-1.097,
+            "WindSpeed":5,
+            "WindBearing":3.5342917352885173
+         },
+         "Rank":18,
+         "AthleteName":"Paul Lloyd",
+         "StartTime":"\/Date(1340740861000)\/",
+         "MovingTime":141
+      },
+      {
+         "Weather":{
+            "Source":"Met Office",
+            "SiteName":"Benson",
+            "Latitude":51.62,
+            "Longitude":-1.097,
+            "WindSpeed":10,
+            "WindBearing":4.3196898986859651
+         },
+         "Rank":19,
+         "AthleteName":"Edward Williamson",
+         "StartTime":"\/Date(1377096838000)\/",
+         "MovingTime":142
+      },
+      {
+         "Weather":{
+            "Source":"Met Office",
+            "SiteName":"Benson",
+            "Latitude":51.62,
+            "Longitude":-1.097,
+            "WindSpeed":5,
+            "WindBearing":4.71238898038469
+         },
+         "Rank":19,
+         "AthleteName":"Tim Stott",
+         "StartTime":"\/Date(1405321944000)\/",
+         "MovingTime":142
+      },
+      {
+         "Weather":{
+            "Source":"Met Office",
+            "SiteName":"Benson",
+            "Latitude":51.62,
+            "Longitude":-1.097,
+            "WindSpeed":13,
+            "WindBearing":2.748893571891069
+         },
+         "Rank":21,
+         "AthleteName":"Alfie OTCC Franks",
+         "StartTime":"\/Date(1400404517000)\/",
+         "MovingTime":143
+      }
+   ]
+}

@@ -18,11 +18,16 @@ namespace Windcheater.Web.Controllers
             _service = service;
         }
 
-        [HttpGet]
         public ActionResult Index()
         {
-            var segment = _service.GetStravaSegmentWithWeather(3752866);
             return View();
+        }
+
+        public JsonResult GetStravaSegmentWithWeather(int id)
+        {
+            var segment = _service.GetStravaSegmentWithWeather(id);
+
+            return Json(new { success = true, data = segment }, JsonRequestBehavior.AllowGet);
         }
     }
 }

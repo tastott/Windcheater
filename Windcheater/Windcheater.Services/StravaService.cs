@@ -31,12 +31,11 @@ namespace Windcheater.Services
             var leaderboard = apiLeaderboard.Entries.Select(apiEntry =>
             {
                 var startDate = DateTime.Parse(apiEntry.StartDate);
-                var movingTime = TimeSpan.FromSeconds(apiEntry.MovingTime);
 
-                return new StravaSegmentEffort(apiEntry.Rank, apiEntry.AthleteName, startDate, movingTime);
+                return new StravaSegmentEffort(apiEntry.Rank, apiEntry.AthleteName, startDate, apiEntry.MovingTime);
             });
 
-            return new StravaSegment<StravaSegmentEffort>(segmentId, startLocation, leaderboard);
+            return new StravaSegment<StravaSegmentEffort>(segmentId, apiSegment.Name, startLocation, leaderboard);
         }
     }
 }

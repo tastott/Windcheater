@@ -10,7 +10,29 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 
     <link rel="stylesheet" href="Content/main.css" />
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <script src="~/Scripts/require/require.js"></script>
+    <script type="text/javascript">
+        require.config({
+            baseUrl: 'Scripts',
+            paths: {
+                'jquery': 'http://code.jquery.com/jquery-2.1.1.min',
+                'knockout': 'http://ajax.aspnetcdn.com/ajax/knockout/knockout-3.0.0',
+                'bootstrap': 'http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min',
+                'json': 'require/plugins/json',
+                'text': 'require/plugins/text',
+                'moment': 'moment/moment',
+                'jcanvas': 'jcanvas.min'
+            },
+            shim: {
+                'bootstrap': {
+                    deps: ['jquery']
+                }
+            }
+        });
+
+        require(['app'])
+    </script>
   </head>
   <body>
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">

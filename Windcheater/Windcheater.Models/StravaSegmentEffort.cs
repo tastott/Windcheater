@@ -11,9 +11,13 @@ namespace Windcheater.Models
         public int Rank { get; private set; }
         public string AthleteName { get; private set; }
         public DateTime StartTime { get; private set; }
-        public TimeSpan MovingTime { get; private set; }
 
-        public StravaSegmentEffort(int rank, string athleteName, DateTime startTime, TimeSpan movingTime)
+        /// <summary>
+        /// Moving time in seconds.
+        /// </summary>
+        public int MovingTime { get; private set; }
+
+        public StravaSegmentEffort(int rank, string athleteName, DateTime startTime, int movingTime)
         {
             Rank = rank;
             AthleteName = athleteName;

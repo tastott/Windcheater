@@ -1,3 +1,13 @@
 ﻿body {
     padding-top: 40px;
 }
+
+table.leaderboard td
+{
+    padding: 10px 10px 10px 10px;
+}
+
+table.leaderboard th
+{
+    text-align: center;
+}

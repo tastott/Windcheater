@@ -9,19 +9,21 @@ namespace Windcheater.Models
     public class StravaSegment<T> where T : StravaSegmentEffort
     {
         public int Id { get; private set; }
+        public string Name { get; private set; }
         public Location StartLocation { get; private set; }
         public IReadOnlyCollection<T> Leaderboard { get; private set; }
 
-        public StravaSegment(int id, Location startLocation, IEnumerable<T> leaderboard)
+        public StravaSegment(int id, string name,  Location startLocation, IEnumerable<T> leaderboard)
         {
             Id = id;
+            Name = name;
             StartLocation = startLocation;
             Leaderboard = new List<T>(leaderboard);
         }
 
         public StravaSegment<T2> Upcast<T2>(IEnumerable<T2> leaderboard) where T2 : StravaSegmentEffort
         {
-            return new StravaSegment<T2>(this.Id, this.StartLocation, leaderboard);
+            return new StravaSegment<T2>(this.Id, this.Name, this.StartLocation, leaderboard);
         }
     }
 }
