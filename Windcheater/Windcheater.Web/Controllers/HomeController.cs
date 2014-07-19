@@ -4,23 +4,24 @@ using System.Configuration;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using Windcheater.Web.Services;
 
 namespace Windcheater.Web.Controllers
 {
+    using Services;
+
     public class HomeController : Controller
     {
-        private StravaService stravaService;
+        private WindcheaterService _service;
 
-        public HomeController()
+        public HomeController(WindcheaterService service)
         {
-            stravaService = new StravaService(ConfigurationManager.AppSettings["StravaApiKey"]);
+            _service = service;
         }
 
         [HttpGet]
         public ActionResult Index()
         {
-            var segment = stravaService.GetSegment(3752866);
+            var segment = _service.GetStravaSegmentWithWeather(3752866);
             return View();
         }
     }

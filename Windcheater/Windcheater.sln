@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Windcheater.Web", "Windcheater.Web\Windcheater.Web.csproj", "{C76D60E3-40BF-4C8B-B2B1-43E15301CA96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Windcheater.Models", "Windcheater.Models\Windcheater.Models.csproj", "{2CCE6BBE-22CB-4D0B-B897-DA0065EE99F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Windcheater.Services", "Windcheater.Services\Windcheater.Services.csproj", "{3272F890-09C1-4CE5-A1CB-123F62FA9263}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Windcheater.Dependency", "Windcheater.Dependency\Windcheater.Dependency.csproj", "{6E931253-D7FF-428F-90F6-707FE2C95F63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +19,18 @@ Global
 		{C76D60E3-40BF-4C8B-B2B1-43E15301CA96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C76D60E3-40BF-4C8B-B2B1-43E15301CA96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C76D60E3-40BF-4C8B-B2B1-43E15301CA96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CCE6BBE-22CB-4D0B-B897-DA0065EE99F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CCE6BBE-22CB-4D0B-B897-DA0065EE99F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CCE6BBE-22CB-4D0B-B897-DA0065EE99F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CCE6BBE-22CB-4D0B-B897-DA0065EE99F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3272F890-09C1-4CE5-A1CB-123F62FA9263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3272F890-09C1-4CE5-A1CB-123F62FA9263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3272F890-09C1-4CE5-A1CB-123F62FA9263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3272F890-09C1-4CE5-A1CB-123F62FA9263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E931253-D7FF-428F-90F6-707FE2C95F63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E931253-D7FF-428F-90F6-707FE2C95F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E931253-D7FF-428F-90F6-707FE2C95F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E931253-D7FF-428F-90F6-707FE2C95F63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
